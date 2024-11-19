@@ -10,7 +10,7 @@
         @include('front.layouts.nav2')
         {{-- form --}}
 
-        @include('front.layouts.formregister')
+        @include('front.layouts.form-register')
 
 
 

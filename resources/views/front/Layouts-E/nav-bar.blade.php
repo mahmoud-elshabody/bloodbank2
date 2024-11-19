@@ -10,23 +10,23 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="{{ Route::is('home2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('home2') }}">home</a>
+                        <li class="{{ Route::is('home') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('home') }}">home</a>
                         </li>
-                        <li class="{{ Route::is('about2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('about2') }}">about us</a>
+                        <li class="{{ Route::is('about') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('about') }}">about us</a>
                         </li>
-                        <li class="{{ Route::is('articles2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('articles2') }}">articles</a>
+                        <li class="{{ Route::is('articles') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('articles') }}">articles</a>
                         </li>
-                        <li class="{{ Route::is('donation_requests2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('donation_requests2') }}">donation requests</a>
+                        <li class="{{ Route::is('donation_requests') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('donation_requests') }}">donation requests</a>
                         </li>
-                        <li class="{{ Route::is('who are us2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('who are us2') }}">who are us</a>
+                        <li class="{{ Route::is('who are us') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('who are us') }}">who are us</a>
                         </li>
-                        <li class="{{ Route::is('contact us2') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('contact us2') }}">contact us</a>
+                        <li class="{{ Route::is('contact us') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('contact us') }}">contact us</a>
                         </li>
                     </ul>
                     <a href="#" class="donate">

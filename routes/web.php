@@ -23,6 +23,9 @@ function(){
         Route::get('donation-requests', [Front\MainController::class,'donation_requests'])->name('donation_requests');
         Route::get('who are us', [Front\MainController::class,'who_are_us'])->name('who are us');
         Route::get('contact us', [Front\MainController::class,'contact_us'])->name('contact us');
+        Route::get('inside', [Front\MainController::class,'inside'])->name('inside');
+        Route::get('register', [Front\AuthController::class,'register'])->name('register');
+        Route::get('login', [Front\AuthController::class,'login'])->name('login');
     });
 
 // Route::get('/user', function () {

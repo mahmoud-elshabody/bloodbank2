@@ -20,9 +20,9 @@
                         </div>
                         <div class="details">
                             <ul>
-                                <li><span>Telephone nomber:</span> 124123412312</li>
+                                <li><span>Telephone nomber:</span> {{  $settings->phone}}</li>
                                 <li><span>Fax:</span> 234234234</li>
-                                <li><span>E-mail:</span> name@name.com</li>
+                                <li><span>E-mail:</span> {{  $settings->email}}</li>
                             </ul>
                         </div>
                         <div class="social">

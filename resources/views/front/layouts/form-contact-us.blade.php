@@ -18,35 +18,35 @@
                         </div>
                         <div class="content">
                             <div class="logo">
-                                <img src="front/imgs/logo.png">
+                                <img src="{{ asset('front/imgs/logo.png')}}">
                             </div>
                             <div class="details">
                                 <ul>
-                                    <li><span>الجوال:</span> 124123412312</li>
+                                    <li><span>الجوال:</span> {{  $settings->phone}}</li>
                                     <li><span>فاكس:</span> 234234234</li>
-                                    <li><span>البريد الإلكترونى:</span> name@name.com</li>
+                                    <li><span>البريد الإلكترونى:</span> {{  $settings->email}}</li>
                                 </ul>
                             </div>
                             <div class="social">
                                 <h4>تواصل معنا</h4>
                                 <div class="icons" dir="ltr">
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/001-facebook.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/001-facebook.svg') }}"></a>
                                     </div>
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/002-twitter.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/002-twitter.svg') }}"></a>
                                     </div>
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/003-youtube.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/003-youtube.svg') }}"></a>
                                     </div>
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/004-instagram.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/004-instagram.svg') }}"></a>
                                     </div>
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/005-whatsapp.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/005-whatsapp.svg') }}"></a>
                                     </div>
                                     <div class="out-icon">
-                                        <a href="#"><img src="front/imgs/006-google-plus.svg"></a>
+                                        <a href="#"><img src="{{ asset('front/imgs/006-google-plus.svg') }}"></a>
                                     </div>
                                 </div>
                             </div>

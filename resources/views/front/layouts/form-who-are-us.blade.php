@@ -11,7 +11,7 @@
             </div>
             <div class="details">
                 <div class="logo">
-                    <img src="front/imgs/logo.png">
+                    <img src="{{  asset('front/imgs/logo.png')}}">
                 </div>
                 <div class="text">
                     <p>

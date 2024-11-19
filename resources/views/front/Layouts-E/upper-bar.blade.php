@@ -3,17 +3,17 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="language">
-                    <a href="article-details-ltr.html" class="en active">EN</a>
-                    <a href="article-details.html" class="ar inactive">عربى</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL('ar') }}" class="ar {{ App::getLocale() == 'ar' ? 'active' : '' }}">عربى</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL('en') }}" class="en {{ App::getLocale() == 'en' ? 'active' : '' }}">EN</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="social">
                     <div class="icons">
-                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="{{  $settings->facebook_url}}" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="{{  $settings->instagram_url}}" class="instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="{{  $settings->twitter_url}}" class="twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="{{  $settings->whatsapp}}" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>

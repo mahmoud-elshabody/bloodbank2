@@ -9,23 +9,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index-ltr.html">home <span class="sr-only">(current)</span></a>
+                    <li class="{{ Route::is('home') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('home') }}">home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">about us</a>
+                    <li class="{{ Route::is('about') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('about') }}">about us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">articles</a>
+                    <li class="{{ Route::is('articles') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('articles') }}">articles</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donation-requests-ltr.html">donation requests</a>
+                    <li class="{{ Route::is('donation_requests') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('donation_requests') }}">donation requests</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="who-are-us-ltr.html">who are us</a>
+                    <li class="{{ Route::is('who are us') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('who are us') }}">who are us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us-ltr.html">contact us</a>
+                    <li class="{{ Route::is('contact us') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('contact us') }}">contact us</a>
                     </li>
                 </ul>
 
