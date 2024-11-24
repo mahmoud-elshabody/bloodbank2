@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en" dir="rtl">
+<html lang="{{  app()->getLocale() }}" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
     @include('front.layouts.head')
-    <body class="inside-request">
+<body>
+    <!--upper-bar-->
     @include('front.layouts.upper-bar2')
     <!--nav-->
     @include('front.layouts.nav2')
     {{-- form --}}
-    @include('front.layouts.form-inside')
+    @include('front.layouts.form-who-are-us')
     <!--footer-->
     @include('front.layouts.footer')
     <!-- Optional JavaScript -->

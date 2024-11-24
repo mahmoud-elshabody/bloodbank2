@@ -13,33 +13,33 @@ class MainController extends Controller
     public function home(Request $request)
     {
         $posts = Post::take(9)->get();
-        return view('front.ar.home',compact('posts'));
+        return view('front.home',compact('posts'));
     }
 
 
     public function about()
     {
-        return view('front.ar.who-are-us');
+        return view('front.who-are-us');
     }
     public function articles()
     {
-        return view('front.ar.article');
+        return view('front.article');
     }
     public function donation_requests()
     {
-        return view('front.ar.donation-requests');
+        return view('front.donation-requests');
     }
     public function who_are_us()
     {
-        return view('front.ar.who-are-us');
+        return view('front.who-are-us');
     }
     public function contact_us()
     {
-        return view('front.ar.contact-us');
+        return view('front.contact-us');
     }
     public function inside()
     {
-        return view('front.ar.inside');
+        return view('front.inside');
     }
 
     public function toggleFavourite(Request $request)

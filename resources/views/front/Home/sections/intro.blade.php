@@ -10,33 +10,33 @@
                     <div class="carousel-item carousel-1 active">
                         <div class="container info">
                             <div class="col-lg-5">
-                                <h3>بنك الدم نمضى قدما لصحة أفضل</h3>
+                                <h3>{{ __('site.intro1') }}</h3>
                                 <p>
-                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص.
+                                    {{ __('site.intro2') }}
                                 </p>
-                                <a href="#">المزيد</a>
+                                <a href="#">{{ __('site.more') }}</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-2">
                         <div class="container info">
                             <div class="col-lg-5">
-                                <h3>بنك الدم نمضى قدما لصحة أفضل</h3>
+                                <h3>{{ __('site.intro1') }}</h3>
                                 <p>
-                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص.
+                                    {{ __('site.intro2') }}
                                 </p>
-                                <a href="#">المزيد</a>
+                                <a href="#">{{ __('site.more') }}</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-3">
                         <div class="container info">
                             <div class="col-lg-5">
-                                <h3>بنك الدم نمضى قدما لصحة أفضل</h3>
+                                <h3>{{ __('site.intro1') }}</h3>
                                 <p>
-                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي.
-                                </p>
-                                <a href="">المزيد</a>
+                                    {{ __('site.intro2') }}
+                                 </p>
+                                <a href="">{{ __('site.more') }}</a>
                             </div>
                         </div>
                     </div>

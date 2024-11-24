@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en" dir="rtl">
-    @include('front.layouts.head')
+<html lang="{{  app()->getLocale() }}" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">    @include('front.layouts.head')
 <body class="donation-requests">
     @include('front.layouts.upper-bar2')
     <!--nav-->

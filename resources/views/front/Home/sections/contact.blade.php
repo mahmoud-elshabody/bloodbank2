@@ -3,9 +3,9 @@
             <div class="container">
                 <div class="col-md-7">
                     <div class="title">
-                        <h3>اتصل بنا</h3>
+                        <h3>{{ __('site.contactus') }}</h3>
                     </div>
-                    <p class="text">يمكنك الإتصال بنا للإستفسار عن معلومة وسيتم الرد عليكم</p>
+                    <p class="text">{{ __('site.moreinformation') }}</p>
                     <div class="row whatsapp">
                         <a href="#">
                             <img src="{{ asset('front') }}//imgs/whats.png">

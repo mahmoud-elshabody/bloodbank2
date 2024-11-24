@@ -20,10 +20,11 @@
             </div>
             <div class="col-md-4">
                 <div class="accounts" dir="ltr">
-                    <a action="{{ route('login') }}" class="signin">الدخول</a>
-                    <a action="{{ route('register') }}" class="create-new">إنشاء حساب جديد</a>
+                    <a href="{{ route('login') }}" class="signin">{{ __('site.login') }}</a>
+                    <a href="{{ route('register') }}" class="create-new">  {{ __('site.signup') }}</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+

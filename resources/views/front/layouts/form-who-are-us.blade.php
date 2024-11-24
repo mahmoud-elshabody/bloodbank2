@@ -4,24 +4,28 @@
             <div class="path">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">من نحن</li>
+                        <li class="breadcrumb-item"><a href="index.html">{{ __('site.home') }}</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ __('site.whoareus') }}</li>
                     </ol>
                 </nav>
             </div>
             <div class="details">
                 <div class="logo">
-                    <img src="{{  asset('front/imgs/logo.png')}}">
+                    @if (app()->getLocale() == 'ar')
+                    <img src="  {{  asset('front\imgs\logo.png')}}">
+                    @else
+                    <img src="  {{  asset('front\imgs\logo-ltr.png')}}">
+                    @endif
                 </div>
                 <div class="text">
                     <p>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                        {{ __('site.whoareus2') }}
                     </p>
                     <p>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                        {{ __('site.whoareus2') }}
                     </p>
                     <p>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                        {{ __('site.whoareus2') }}
                     </p>
                 </div>
             </div>

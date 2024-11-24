@@ -8,9 +8,9 @@
             <div class="path">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
-                        <li class="breadcrumb-item"><a href="donation-requests.html">طلبات التبرع</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">طلب التبرع: احمد محمد</li>
+                        <li class="breadcrumb-item"><a href="index.html">{{ __('site.home') }}</a></li>
+                        <li class="breadcrumb-item"><a href="donation-requests.html">{{ __('site.donationrequests') }}</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ __('site.donationrequest') }}: احمد محمد</li>
                     </ol>
                 </nav>
             </div>
@@ -21,7 +21,7 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>الإسم</p>
+                                        <p>{{ __('site.name') }}</p>
                                     </div>
                                     <div class="light">
                                         <p>احمد محمد</p>
@@ -33,7 +33,7 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>فصيلة الدم</p>
+                                        <p>{{ __('site.bloodtype') }}</p>
                                     </div>
                                     <div class="light">
                                         <p dir="ltr">A+</p>
@@ -47,10 +47,10 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>العمر</p>
+                                        <p>{{ __('site.age') }}</p>
                                     </div>
                                     <div class="light">
-                                        <p>28 عام</p>
+                                        <p>28 {{ __('site.years') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,10 +59,10 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>عدد الأكياس المطلوبة</p>
+                                        <p>{{ __('site.numberbags') }}</p>
                                     </div>
                                     <div class="light">
-                                        <p>3 أكياس</p>
+                                        <p>3 {{ __('site.bags') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>المشفى</p>
+                                        <p>{{ __('site.hospital') }}</p>
                                     </div>
                                     <div class="light">
                                         <p>الخير الدولية</p>
@@ -85,7 +85,7 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="dark">
-                                        <p>رقم الجوال</p>
+                                        <p>{{ __('site.phone') }}</p>
                                     </div>
                                     <div class="light">
                                         <p>0245487878</p>
@@ -99,7 +99,7 @@
                             <div class="inside">
                                 <div class="info">
                                     <div class="special-dark dark">
-                                        <p>عنوان المشفى</p>
+                                        <p>{{ __('site.hospitaladdress') }}</p>
                                     </div>
                                     <div class="special-light light">
                                         <p>المنصورة- شارع عبد العزيز بجوار المرور المتفرع من الدولى</p>
@@ -109,12 +109,12 @@
                         </div>
                     </div>
                     <div class="details-button">
-                        <a href="#">التفاصيل</a>
+                        <a href="#">{{ __('site.details') }}</a>
                     </div>
                 </div>
                 <div class="text">
                     <p>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                        {{ __('site.inside1') }}
                     </p>
                 </div>
                 <div class="location">

@@ -2,7 +2,7 @@
         <div class="requests">
             <div class="container">
                 <div class="head-text">
-                    <h2>طلبات التبرع</h2>
+                    <h2>{{ __("site.donationrequests") }}</h2>
                 </div>
             </div>
             <div class="content">
@@ -12,7 +12,7 @@
                             <div class="form-group">
                                 <div class="inside-select">
                                     <select class="form-control" id="exampleFormControlSelect1">
-                                        <option selected disabled>اختر فصيلة الدم</option>
+                                        <option selected disabled>{{ __("site.choosebloodtype") }}</option>
                                         <option>+A</option>
                                         <option>+B</option>
                                         <option>+AB</option>
@@ -26,11 +26,11 @@
                             <div class="form-group">
                                 <div class="inside-select">
                                     <select class="form-control" id="exampleFormControlSelect1">
-                                        <option selected disabled>اختر المدينة</option>
-                                        <option>المنصورة</option>
-                                        <option>القاهرة</option>
-                                        <option>الإسكندرية</option>
-                                        <option>سوهاج</option>
+                                        <option selected disabled>{{ __("site.choosecity") }}</option>
+                                        <option>{{ __("site.elmansoura") }}</option>
+                                        <option>{{ __("site.cairo") }}</option>
+                                        <option>{{ __("site.alex") }}</option>
+                                        <option>{{ __("site.sohag") }}</option>
                                     </select>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -48,48 +48,48 @@
                                 <h2 dir="ltr">B+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> المنصورة</li>
                             </ul>
-                            <a href="inside-request.html">التفاصيل</a>
+                            <a href="inside-request.html">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">A+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> المنصورة</li>
                             </ul>
-                            <a href="inside-request.html">التفاصيل</a>
+                            <a href="inside-request.html">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">AB+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> المنصورة</li>
                             </ul>
-                            <a href="inside-request.html">التفاصيل</a>
+                            <a href="inside-request.html">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">O-</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> المنصورة</li>
                             </ul>
-                            <a href="inside-request.html">التفاصيل</a>
+                            <a href="inside-request.html">{{ __('site.details') }}</a>
                         </div>
                     </div>
                     <div class="more">
-                        <a href="donation-requests.html">المزيد</a>
+                        <a href="donation-requests.html">{{ __('site.more') }}</a>
                     </div>
                 </div>
             </div>

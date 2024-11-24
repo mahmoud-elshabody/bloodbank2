@@ -4,25 +4,29 @@
                 <div class="container">
                     <div class="row">
                         <div class="details col-md-4">
+                            @if (app()->getlocale()== "ar" )
                             <img src="{{ asset('front') }}/imgs/logo.png">
-                            <h4>بنك الدم</h4>
+                            @else
+                            <img src="{{ asset('front') }}/imgs/logo-ltr.png">
+                            @endif
+                            <h4>{{ __('site.bloodbank') }}</h4>
                             <p>
-                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى.
+                                {{ __('site.footer1') }}
                             </p>
                         </div>
                         <div class="pages col-md-4">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-home-list" href="index.html" role="tab" aria-controls="home">الرئيسية</a>
-                                <a class="list-group-item list-group-item-action" id="list-profile-list" href="#" role="tab" aria-controls="profile">عن بنك الدم</a>
-                                <a class="list-group-item list-group-item-action" id="list-messages-list" href="#" role="tab" aria-controls="messages">المقالات</a>
-                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="donation-requests.html" role="tab" aria-controls="settings">طلبات التبرع</a>
-                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="who-are-us.html" role="tab" aria-controls="settings">من نحن</a>
-                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="contact-us.html" role="tab" aria-controls="settings">اتصل بنا</a>
+                                <a class="list-group-item list-group-item-action active" id="list-home-list" href="index.html" role="tab" aria-controls="home">{{ __('site.home') }}</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list" href="#" role="tab" aria-controls="profile"> {{ __('site.aboutus') }}</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list" href="#" role="tab" aria-controls="messages">{{ __('site.articles') }}</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="donation-requests.html" role="tab" aria-controls="settings">{{ __('site.donationrequests') }}</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="who-are-us.html" role="tab" aria-controls="settings">{{ __('site.whoareus') }}</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list" href="contact-us.html" role="tab" aria-controls="settings">{{ __('site.contactus') }}</a>
                             </div>
                         </div>
                         <div class="stores col-md-4">
                             <div class="availabe">
-                                <p>متوفر على</p>
+                                <p>{{ __('site.available') }}</p>
                                 <a href="#">
                                     <img src="{{ asset('front') }}/imgs/google1.png">
                                 </a>
@@ -46,7 +50,10 @@
                             </div>
                         </div>
                         <div class="rights col-md-8">
-                            <p>جميع الحقوق محفوظة لـ <span>بنك الدم</span> &copy; 2019</p>
+                            <p>
+                                {{ __('site.rights') }}
+                                <span>{{ __('site.bloodbank') }}</span>
+                                 &copy; 2019</p>
                         </div>
                     </div>
                 </div>

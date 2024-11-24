@@ -3,12 +3,12 @@
             <div class="container">
                 <div class="row">
                     <div class="info col-md-6">
-                        <h3>تطبيق بنك الدم</h3>
+                        <h3>{{ __("site.bloodbankapp") }}</h3>
                         <p>
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                            {{ __("site.app2") }}
                         </p>
                         <div class="download">
-                            <h4>متوفر على</h4>
+                            <h4>{{ __("site.available") }}</h4>
                             <div class="row stores">
                                 <div class="col-sm-6">
                                     <a href="#">

@@ -5,8 +5,8 @@
             <div class="path">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">طلبات التبرع</li>
+                        <li class="breadcrumb-item"><a href="index.html">{{ __('site.home') }}</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ __('site.donationrequests') }}</li>
                     </ol>
                 </nav>
             </div>
@@ -14,7 +14,7 @@
             <!--requests-->
             <div class="requests">
                 <div class="head-text">
-                    <h2>طلبات التبرع</h2>
+                    <h2>{{ __('site.donationrequests') }}</h2>
                 </div>
                 <div class="content">
                     <form class="row filter">
@@ -22,7 +22,7 @@
                             <div class="form-group">
                                 <div class="inside-select">
                                     <select class="form-control" id="exampleFormControlSelect1">
-                                        <option selected="" disabled="">اختر فصيلة الدم</option>
+                                        <option selected="" disabled="">{{ __('site.choosebloodtype') }}</option>
                                         <option>+A</option>
                                         <option>+B</option>
                                         <option>+AB</option>
@@ -36,11 +36,11 @@
                             <div class="form-group">
                                 <div class="inside-select">
                                     <select class="form-control" id="exampleFormControlSelect1">
-                                        <option selected="" disabled="">اختر المدينة</option>
-                                        <option>المنصورة</option>
-                                        <option>القاهرة</option>
-                                        <option>الإسكندرية</option>
-                                        <option>سوهاج</option>
+                                        <option selected="" disabled="">{{ __('site.choosecity') }}</option>
+                                        <option>{{ __('site.elmansoura') }}</option>
+                                        <option>{{ __('site.cairo') }}</option>
+                                        <option>{{ __('site.alex') }}</option>
+                                        <option>{{ __('site.sohag') }}</option>
                                     </select>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -58,88 +58,88 @@
                                 <h2 dir="ltr">B+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">A+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">AB+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">O-</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">B+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">A+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">AB+</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                         <div class="details">
                             <div class="blood-type">
                                 <h2 dir="ltr">O-</h2>
                             </div>
                             <ul>
-                                <li><span>اسم الحالة:</span> احمد محمد احمد</li>
-                                <li><span>مستشفى:</span> القصر العينى</li>
-                                <li><span>المدينة:</span> المنصورة</li>
+                                <li><span>{{ __('site.patientname') }}:</span> احمد محمد احمد</li>
+                                <li><span>{{ __('site.hospital') }}:</span> القصر العينى</li>
+                                <li><span>{{ __('site.city') }}:</span> {{ __('site.elmansoura') }}</li>
                             </ul>
-                            <a href="#">التفاصيل</a>
+                            <a href="#">{{ __('site.details') }}</a>
                         </div>
                     </div>
                     <div class="pages">
